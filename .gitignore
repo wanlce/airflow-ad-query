@@ -1,0 +1,7 @@
+__pycache__/
+.idea/
+airflow_ad_query.egg-info/
+dist/
+build/
+
+node_modules
