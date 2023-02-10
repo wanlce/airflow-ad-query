@@ -15,12 +15,17 @@
 #
 import setuptools
 
+with open("README.md", "r") as f:
+    long_description = f.read()
+
 setuptools.setup(
     name="airflow_ad_query",
-    version="0.1",
+    version="0.1.1",
     author="wano",
     author_email="whox@foxmail.com",
     description="airflow ad query",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/wanlce/airflow-ad-query",
     license="Apahce",
     packages=setuptools.find_packages(),
